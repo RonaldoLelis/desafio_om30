@@ -1,0 +1,137 @@
+.sidebar-fixed {
+  height: 100vh;
+  width: 270px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  z-index: 1050;
+  background-color: #fff;
+  padding: 1.5rem;
+  padding-top: 0; }
+  .sidebar-fixed .list-group .active {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+  .sidebar-fixed .logo-wrapper {
+    padding: 2.5rem; }
+    .sidebar-fixed .logo-wrapper img {
+      max-height: 50px; }
+
+@media (min-width: 1200px) {
+  .navbar,
+  .page-footer,
+  main {
+    padding-left: 270px; } }
+
+@media (max-width: 1199.98px) {
+  .sidebar-fixed {
+    display: none; }
+}
+fieldset{margin:1% auto;}
+table{ margin-top: 20px;}	
+.box-mensagem-crud{ margin-top: 10px;}
+.msg-erro{ color: red; }
+
+.login{   
+  width: 100vw; 
+  height: 100vh;
+  position: relative;
+}
+.login img{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+@media (max-width: 720px) {
+  .login {      
+  background-color: #8B2237;
+  }
+  .login .fundo{
+      display: none;
+  }
+}
+.form-control {
+min-height: 41px;
+box-shadow: none !important;
+border-color: #e3e3e3;
+}
+.form-control:focus {
+border-color: #70c5c0;
+}
+.form-control, .btn {        
+border-radius: 2px;
+}
+.login-form {
+width: 350px;
+margin: 0 auto;
+padding: 100px 0 30px;		
+}
+.login-form form {
+color: #7a7a7a;
+border-radius: 4px;
+margin-bottom: 10px;
+font-size: 13px;
+background: #b9314c;
+box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+padding: 30px;	
+position: relative;	
+}
+.login-form h2 {
+font-size: 22px;
+  margin: 35px 0 25px;
+  height: 50px;
+}
+.login-form .avatar {    
+  position: absolute;
+  width: 250px;
+  height: 175px;	
+margin: 0 auto;
+left: 0;
+right: 0;
+top: -60px;
+border-radius: 50%;
+z-index: 9;
+padding: 15px;	
+}
+.login-form .avatar img {
+position: absolute;
+  width: 220px;
+  height: 155px;
+}	
+.login-form input[type="checkbox"] {
+position: relative;
+top: 1px;
+}
+.login-form .btn, .login-form .btn:active {        
+font-size: 16px;
+font-weight: bold;
+background: #70c5c0 !important;
+border: none;
+margin-bottom: 20px;
+}
+.login-form .btn:hover, .login-form .btn:focus {
+background: #50b8b3 !important;
+}    
+.login-form a {
+color: #fff;
+text-decoration: underline;
+}
+.login-form a:hover {
+text-decoration: none;
+}
+.login-form form a {
+color: #7a7a7a;
+text-decoration: none;
+}
+.login-form form a:hover {
+text-decoration: underline;
+}
+.login-form .bottom-action {
+font-size: 18px;
+color: #fff;
+}
+.login-form .bottom-action a {
+font-size: 18px;
+color: rgb(236, 146, 206);
+}
