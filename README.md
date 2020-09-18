@@ -2,7 +2,7 @@
 
 ###Teste feito no Framework Codeigniter 4
 
-Banco de dados utilizado foi o postgresql,
+Banco de dados utilizado foi o postgresql,  
 Servidor usei o php spark serve: localhost:8080/
 para rodar o projeto crie um BD
 e rode o SQL:
